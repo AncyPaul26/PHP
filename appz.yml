@@ -18,7 +18,7 @@ volumes:
   - claim: laravel-storage
     mount: /var/www/html/storage
     name: storage
-    size: 5Gi
+    size: 7Gi
     matchLabels: false
 properties:
     APP_KEY:
